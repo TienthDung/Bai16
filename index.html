@@ -21,6 +21,51 @@
             default:
                 break;
         }
+
+        for (var i = 0; i < 5; i++) {
+            console.log("Dem so " + i);
+        }
+
+        var infoUser = {
+            name: "TienthDung",
+            age: "18",
+            email: "tiendungthan0806@gmail.com",
+        }
+
+        var listUser = [
+            "Nguyen Van A", 
+            "Nguyen Thi B", 
+            "Nguyen C",
+            {
+                name: "Tien Dung",
+                age: 18
+            }
+        ];
+
+        for (item of listUser) {
+            console.log(item);
+        }
+
+        var key = "email";
+
+        for (key in infoUser) {
+            console.log(key, infoUser[key]);            
+        }
+
+        var i = 0;
+        while (i < 5) {
+            console.log("Vong lap " + i);
+            i++;
+        }
+
+        if (true) {
+            var m = 10;
+            let n = 11;
+        }
+
+        console.log(n + " " + m);
+        
+        
     </script>
 </body>
 </html>
